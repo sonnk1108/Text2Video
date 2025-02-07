@@ -18,27 +18,24 @@ This project **converts text to Vietnamese speech using Microsoft Edge-TTS**, th
 
 git clone https://github.com/your-username/Text-to-LipSync.git
 cd Text-to-LipSync
+
 2️⃣ Install Dependencies
 Ensure you have Python 3.8+ installed, then install required libraries:
 
 pip install edge-tts nest_asyncio pydub librosa soundfile lipsync
+
 3️⃣ Install FFmpeg (If Not Installed)
 FFmpeg is required for processing audio/video. Install it:
 
 4️⃣ Download Pretrained Wav2Lip Model
 Download the Wav2Lip GAN model weights and place it in the project folder:
 
-bash
-Copy
-Edit
+
 wget https://github.com/Rudrabha/Wav2Lip/releases/download/v1.0/wav2lip_gan.pth
 🚀 Usage
 Convert Text to Speech (TTS)
 Run the script to generate an MP3 file and convert it to WAV:
 
-python
-Copy
-Edit
 import edge_tts
 import asyncio
 import nest_asyncio
