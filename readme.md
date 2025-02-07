@@ -15,15 +15,12 @@ This project **converts text to Vietnamese speech using Microsoft Edge-TTS**, th
 
 ## **📦 Installation**
 ### **1️⃣ Clone the Repository**
-```bash
+
 git clone https://github.com/your-username/Text-to-LipSync.git
 cd Text-to-LipSync
 2️⃣ Install Dependencies
 Ensure you have Python 3.8+ installed, then install required libraries:
 
-bash
-Copy
-Edit
 pip install edge-tts nest_asyncio pydub librosa soundfile lipsync
 3️⃣ Install FFmpeg (If Not Installed)
 FFmpeg is required for processing audio/video. Install it:
