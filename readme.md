@@ -28,7 +28,7 @@ pip install edge-tts nest_asyncio pydub librosa soundfile lipsync
 FFmpeg is required for processing audio/video. Install it:
 
 4️⃣ Download Pretrained Wav2Lip Model
-Download the Wav2Lip GAN model weights and place it in the project folder:
+Download the Wav2Lip GAN model weights and place it in the project folder
 
 
 
