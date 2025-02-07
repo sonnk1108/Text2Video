@@ -25,7 +25,7 @@ Ensure you have Python 3.8+ installed, then install required libraries:
 pip install edge-tts nest_asyncio pydub librosa soundfile lipsync
 
 3️⃣ Install FFmpeg (If Not Installed)
-FFmpeg is required for processing audio/video. Install it:
+FFmpeg is required for processing audio/video.
 
 4️⃣ Download Pretrained Wav2Lip Model
 Download the Wav2Lip GAN model weights and place it in the project folder
